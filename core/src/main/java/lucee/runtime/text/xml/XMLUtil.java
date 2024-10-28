@@ -247,7 +247,7 @@ public final class XMLUtil {
 		TransformerFactory factory = null;
 		Class clazz = null;
 		try {
-			clazz = ClassUtil.loadClass("com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl");
+			clazz = ClassUtil.loadClass("javax.xml.transform.TransformerFactory");
 		}
 		catch (Exception e) {
 			try {
